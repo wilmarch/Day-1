@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+section, aside {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    margin-bottom: 10px;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* menu */
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    flex: 1 1 30%; /* Mengatur lebar setiap item menu */
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ccc; /* Memberi border */
+    padding: 20px; /* Memberi padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Memberi efek shadow */
+}
+
+.menu-item img {
+    max-width: 50%;
+    height: auto;
+}
+
+.menu-item h2 {
+    margin-top: 10px;
+}
+
+/* about us */
+h1 {
+    margin-bottom: 10px; /* Misalkan ingin ruang yang lebih besar di bawah h1 */
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Kontak */
+/* Kontak */
+.contact-section {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-section h1 {
+    margin-bottom: 20px;
+}
+
+.contact-section ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.contact-section ul li {
+    margin-bottom: 10px;
+}
+
+.contact-section ul li strong {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
+
+
